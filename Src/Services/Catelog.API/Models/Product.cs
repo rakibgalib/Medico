@@ -12,6 +12,6 @@ namespace Catelog.API.Models
         public decimal Price { get; set; }
         public string Category { get; set; }
         public string Summery { get; set; }
-        public int ImageFile { get; set; }
+        public string ImageFile { get; set; }
     }
 }
